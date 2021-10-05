@@ -1,0 +1,82 @@
+.main-div{
+    background-color:whitesmoke;
+    width: 530px;
+    margin: 0 auto;
+    position: relative;
+    top: 15px;
+    border-radius: 15px;
+}
+.profile-pic{
+    position: relative;
+    top: 10px;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    right: 195px;
+}
+.dot{
+    height: 15px;
+    width: 15px;
+    position: relative;
+    right: 162px;
+    bottom: 50px; 
+}
+.date{
+    position: relative;
+    color: slateblue;
+    bottom: 80px;
+    right: 70px;
+}
+#created-by{
+    position: relative;
+    right: 95px;
+    bottom: 60px;
+}
+.caption{
+    position: relative;
+    bottom: 50px;
+    width: fit-content;
+    left: 40px;
+}
+.posted-images{
+    position: relative;
+    bottom: 55px;
+}
+.like-comment-share{
+    display: flex;
+    left: 30px;
+
+}
+.like{
+    position: relative;
+    left: 30px;
+    bottom: 10px;
+}
+.comment{
+    position: relative;
+    left: 105px;
+}
+.share{
+    position: relative;
+    left: 180px;
+}
+.comment:hover,.share:hover{
+    cursor:pointer;
+}
+.like:hover{
+    cursor:pointer;
+}
+.show-like{
+    position: relative;
+    right: 180px;
+    font-size: 20px;
+}
+.showShare{
+    position: relative;
+    font-size: 13px;
+    left: 190px;
+    bottom: 31px;
+}
+.showShare span{
+    font-size: 15px;
+}

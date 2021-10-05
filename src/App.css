@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-image: url(./assets/facebook.jpg);
+  background-repeat: no-repeat;
+  background-size: 131%;  
 }
 
 .App-logo {

@@ -1,6 +1,6 @@
 .main-div{
     background-color:whitesmoke;
-    width: 530px;
+    /* no height */width: 500px;
     margin: 0 auto;
     position: relative;
     top: 15px;
@@ -12,44 +12,42 @@
     height: 90px;
     width: 90px;
     border-radius: 50%;
-    right: 195px;
+    left: 10px;
 }
 .dot{
     height: 15px;
     width: 15px;
     position: relative;
-    right: 162px;
-    bottom: 50px; 
+    left: 80px;
+    bottom: 49px; 
 }
 .date{
     position: relative;
     color: slateblue;
-    bottom: 80px;
-    right: 70px;
+    bottom: 90px;
+    left: 111px;
 }
 #created-by{
     position: relative;
-    right: 95px;
-    bottom: 60px;
+    left: 108px;
+    bottom: 70px;
 }
 .caption{
     position: relative;
-    bottom: 50px;
+    bottom: 55px;
     width: fit-content;
-    left: 40px;
+    left: 50px;
 }
 .posted-images{
     position: relative;
-    bottom: 55px;
+    bottom: 65px;
 }
 .like-comment-share{
     display: flex;
-    left: 30px;
-
 }
 .like{
     position: relative;
-    left: 30px;
+    left: 35px;
     bottom: 10px;
 }
 .comment{
@@ -60,23 +58,65 @@
     position: relative;
     left: 180px;
 }
-.comment:hover,.share:hover{
-    cursor:pointer;
-}
-.like:hover{
+.like:hover,.comment:hover,.share:hover{
     cursor:pointer;
 }
 .show-like{
-    position: relative;
-    right: 180px;
+    display: flex;
+    left: 15px;
     font-size: 20px;
 }
 .showShare{
     position: relative;
     font-size: 13px;
-    left: 190px;
-    bottom: 31px;
+    left: 350px;
 }
 .showShare span{
     font-size: 15px;
+}
+.input-comment{
+    position: relative;
+    bottom: 65px;
+    width: 370px;
+    left: 35px;
+    outline: none;
+    border-color:lightblue ;
+    border-radius: 30px;
+}
+.comment-imgs{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    left: 15px;
+    bottom: 65px;
+}
+.comment-section button{
+    position: relative;
+    border-radius: 50px;
+    bottom: 65px;
+    left: 50px;
+}
+.comment-img{
+    position: relative;
+    height: 35px;
+    width: 32px;
+    border-radius: 50%;
+    right: 165px;
+}
+table tr{
+    position: relative;
+    bottom: 80px;
+}
+.comment-user{
+    position: relative;
+    font-weight:bold ;
+    top: 22px;
+    right: 125px;
+}
+.comment-text{
+    position: relative;
+       right: 180px;
+       top: 25px;
+    
 }

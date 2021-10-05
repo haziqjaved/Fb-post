@@ -9,7 +9,7 @@ const userDetails={
   avatar: ProfilePic,
   description: "Recently visited Skardu & here is a some amazing shots ❤️",
   images:[
-  'https://i.dawn.com/primary/2015/04/552534a77b507.jpg?r=961640394',
+  'https://i.dawn.com/primary/2015/04/552534a77b507.jpg?r=961640394' ,
   'https://i.dawn.com/primary/2015/04/552534a1572da.jpg?r=2087649568',
   'https://i.dawn.com/primary/2015/04/5525349eba78c.jpg?r=409479358',
   'https://i.dawn.com/primary/2015/04/55253498bb39c.jpg?r=1434275949',
